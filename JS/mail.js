@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
             subject: subject,
             message: message,
           },
-          "YOUR_PUBLIC_KEY" // Add your EmailJS Public Key here
+          "ucqShmVgrdm9FdUah" // Add your EmailJS Public Key here
         )
         .then(
           function (response) {
