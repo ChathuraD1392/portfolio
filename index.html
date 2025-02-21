@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/images/mw.png" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "ucqShmVgrdm9FdUah",
+        });
+      })();
+    </script>
+    <script src="/JS/mail.js"></script>
+    <script src="./JS/config.js"></script>
+  </head>
+  <body>
+    <!-- cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    <!--Header-->
+    <header class="header">
+     <a href="#"> <img src="/images/Chathura Dilshan copy.png" id="header-image" alt="" /></a>
+      <i class="bx bx-menu" id="menu-icon" class="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#services">Sevices</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- home section -->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Chathura Dilshan</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          A passionate full-stack developer specializing in both front-end and
+          back-end technologies. I build scalable, user-friendly applications
+          with a focus on clean code and seamless user experiences.
+        </p>
+        <div class="social-media">
+          
+          <a
+            href="https://www.facebook.com/chathura.dilshan.583"
+            target="_blank"
+            ><i class="bx bxl-facebook-circle"></i
+          ></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          <a
+            href="httpS://www.linkedin.com/in/chathura-dilshan-rupasinghe"
+            target="_blank"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
+          <a href="https://chathurasimplecodes.blogspot.com" target="_blank"><i class="bx bxl-blogger"></i></a>
+        </div>
+
+        <a href="/documents/ChathuraDilshanCV.pdf" class="btn" target="_blank">Download Resume</a>
+      </div>
+      <div class="home-img">
+        <img src="/images/medark.png" alt="" />
+      </div>
+    </section>
+
+    <!-- services section -->
+
+    <section class="services" id="services">
+      <h2 class="heading">Our <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Frontend Development</h3>
+          <p>
+            Developing scalable and responsive front-end applications that
+            deliver seamless user experiences across all devices.I ensure high
+            performance, maintainability, and a visually appealing UI. My focus
+            is on creating dynamic, interactive, and efficient web solutions
+            that adapt to evolving user needs and business requirements.
+          </p>
+          <a href="#portfolio" class="btn">More...</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-palette"></i>
+          <h3>Backend Development</h3>
+          <p>
+            I specialize in developing scalable and responsive back-end systems
+            that ensure high performance and efficiency. With a focus on clean
+            architecture and optimized databases, I build solutions that can
+            handle growth and adapt to changing requirements. My goal is to
+            create secure, reliable, and well-structured back-end services that
+            power seamless user experiences.
+          </p>
+          <a href="#portfolio" class="btn">More...</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-doughnut-chart"></i>
+          <h3>Mobile Development</h3>
+          <p>
+            Developing scalable and responsive mobile applications that deliver
+            seamless user experiences across all devices.I build apps that adapt
+            to different screen sizes while maintaining speed and functionality.
+            My goal is to create innovative, user-friendly solutions that meet
+            modern digital demands while ensuring clean, maintainable code.
+          </p>
+          <a href="#portfolio" class="btn">More...</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section -->
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="/images/ss4.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web <span>Design</span></h4>
+            <p>This website was created for a USA client</p>
+            <a href="https://growthuniversity.teachable.com/" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="/images/ss3.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web <span>Design</span></h4>
+            <p>This website was created for a SL client</p>
+            <a href="https://www.ericrajapakse.lk/" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="/images/ss2.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web <span>Design</span></h4>
+            <p>This website was created for a SL client</p>
+            <a href="https://lkcarts.com/" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="/images/ss1.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web <span>Design</span></h4>
+            <p>
+              <p>This website was created for a SL client</p> 
+            </p>
+            <a href="https://www.helloworldsrilanka.com/" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="/images/ss5.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web <span>Design</span></h4>
+            <p>
+              <p>This website was created for a SL client</p> 
+            </p>
+            <a href="https://srilankacaranddriverhire.com/" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="/images/mw.png" alt="abour" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <p></p>
+        <h3>Education</h3>
+        <p>BSc. in Electrical & Information Engineering (UOR)</p>
+        <p>MSc. in Information Technology (UOM)</p>
+        <h3>Full-stack Developer</h3>
+        <p>
+          Hi, I'm Chathura Dilshan, a passionate front-end and back-end
+          developer with a strong focus on building scalable, user-friendly
+          applications. I specialize in creating seamless digital experiences
+          using modern technologies, ensuring clean code, performance, and
+          efficiency. Whether it's designing interactive UIs or developing
+          robust backend systems, I love solving complex problems and bringing
+          ideas to life through code. Always eager to learn and grow, I stay
+          updated with the latest industry trends to build innovative and
+          efficient solutions.
+        </p>
+        <!-- <a href="#" class="btn">Read More</a> -->
+      </div>
+    </section>
+
+    <!-- contact section -->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form id="contact-form">
+        <div class="input-box">
+          <input type="text" id="name" placeholder="Full Name" required />
+          <input type="email" id="email" placeholder="Email Address" required />
+        </div>
+
+        <div class="input-box">
+          <input type="number" id="mobile" placeholder="Mobile No" required />
+          <input
+            type="text"
+            id="subject"
+            placeholder="Email Subject"
+            required
+          />
+        </div>
+
+        <textarea
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Type Your Message here"
+          required
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+      
+    </section>
+
+    <!-- footer -->
+
+    <div class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by CodeDrift Studios | Chathura Dilshan | All Right Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </div>
+    <!-- custoom js -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="JS/index.js"></script>
+    <script src="JS/cursor.js" defer></script>
+  </body>
+</html>
