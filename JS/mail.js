@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
+  emailjs.init("ucqShmVgrdm9FdUah"); // Replace with your EmailJS public key
+
   document
     .getElementById("contact-form")
     .addEventListener("submit", function (event) {
@@ -13,13 +15,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Send email using EmailJS
       emailjs
-        .send("service_xmuoy1d", "template_8oy4aw8", {
-          name: name,
-          email: email,
-          mobile: mobile,
-          subject: subject,
-          message: message,
-        })
+        .send(
+          "service_xmuoy1d",
+          "template_8oy4aw8",
+          {
+            name: name,
+            email: email,
+            mobile: mobile,
+            subject: subject,
+            message: message,
+          },
+          "YOUR_PUBLIC_KEY" // Add your EmailJS Public Key here
+        )
         .then(
           function (response) {
             alert("Message Sent Successfully!");
